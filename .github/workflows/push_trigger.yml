@@ -60,7 +60,7 @@ jobs:
         with:
           source_folder: mosip-plugins
           destination_repo: mosip/artifactory-ref-impl
-          destination_folder: artifacts/src/mosip-plugins/sign-in-with-esignet/
+          destination_folder: artifacts/src/esignet-plugins/sign-in-with-esignet/
           destination_branch: ${{ github.event.inputs.destination_branch }}
           user_name: mosip
 
@@ -114,7 +114,7 @@ jobs:
         with:
           source_folder: mosip-plugins
           destination_repo: mosip/artifactory-ref-impl
-          destination_folder: artifacts/src/mosip-plugins/secure-biometric-interface-integrator/
+          destination_folder: artifacts/src/esignet-plugins/secure-biometric-interface-integrator/
           destination_branch: ${{ github.event.inputs.destination_branch }}
           user_name: mosip
 
