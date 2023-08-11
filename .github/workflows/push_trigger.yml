@@ -17,6 +17,7 @@ on:
       - develop
       - master
       - 0.*
+      - ES-201-testing
   pull_request:
     types: [ opened, synchronize, reopened ]
 jobs:
